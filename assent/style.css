@@ -1,0 +1,59 @@
+/* CSS cho logo */
+.logo {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+/* Chỉnh lại nền và kiểu chữ cho ứng dụng */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e; /* Nền tối */
+    color: #e0e0e0; /* Màu chữ sáng */
+}
+
+/* Định dạng tiêu đề */
+h1, h2, h3 {
+    color: #ffcc00;
+    text-align: center;
+}
+
+/* Định dạng cho nút chụp ảnh */
+button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ffaa00;
+}
+
+/* Định dạng video cho camera */
+#video {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #ffcc00;
+}
+
+/* Media Query cho màn hình nhỏ */
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 80px;
+    }
+    
+    body {
+        font-size: 14px;
+    }
+}
